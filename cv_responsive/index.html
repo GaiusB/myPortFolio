@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio</title>
+    <link rel="stylesheet" href="Style.css">
+    <script src="https://kit.fontawesome.com/056ceeb2a1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id = "header">
+        <div class = "container">
+            <nav>
+                <img src = "image/logo1.png" alt="firstLogo" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li class="fas fa-times" onclick="closemenu()"></li>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class = "header-text">
+                <p> Web Developer</p>
+                <h1>Hi, I'm <span>Gaïus</span><br> Bougna eager to be part your team</h1>
+            </div>
+        </div>
+    </div>
+
+<!--  --------- about --------- -->
+
+    <div id="about">
+        <Div class = "container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/Img1.png" alt="salmonCoatedHandsomeBoy">
+                </div>
+                <div class="about-col-2">
+                       <h1 class="sub-title">About Me</h1>
+                        <p>
+                        Highly-driven computer science student with growing knowledge in IT seeking a software engineering  apprenticeship in january. I’m eager and ready to contribute my passion and skills to help thrive the companies engineering efforts.
+                        <br><br>
+                         2days in school and 3days in the compagny.
+                        </p>
+                       <div class="tab-title">
+                        <p class="tab-links active-link" onclick = "opentab('skills')">skills</p>
+                        <p class="tab-links" onclick = "opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick = "opentab('education')">Education</p>
+                       </div>
+                       <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI?UX</span><br>Designing web interfaces</li>
+                            <li><span>web developement</span><br>Desiging a portfolio</li>
+                            <li><span>App developement</span><br>Realising a jobboard</li>
+                        </ul>
+
+                       </div>
+                       <div class="tab-contents" id = "experience">
+                        <ul>
+                            <li><span>experience auchan retail</span><br>Designing web interfaces</li>
+                            <li><span>web developement</span><br>Designing web interfaces</li>
+                            <li><span>App developement</span><br>Designing web interfaces</li>
+                        </ul>
+
+                       </div><div class="tab-contents" id = "education">
+                        <ul>
+                            <li><span>Bachelor in science</span><br>Designing web interfaces</li>
+                            <li><span>web developement</span><br>Designing web interfaces</li>
+                            <li><span>App developement</span><br>Designing web interfaces</li>
+                        </ul>
+
+                    </div>
+
+            </div>
+    </div>
+
+<!-- ----------services------ -->
+
+<div id = "services">
+    <div id = "container">
+        <h1 class="sub-title">My services</h1>
+        <div class="services-list">
+            
+            <div>
+                <h2>Web Design</h2>
+                <p>Not available for now..</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <h2>computer sciences</h2>
+                <p>Not available for now..</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <h2>app Design</h2>
+                <p>Not available for now..</p>
+                <a href="#">Learn more</a>
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+</div>
+
+
+<!-- -----------portfolio--------->
+
+<div id="portfolio">
+    <div class= "container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="image/th 1.png" alt="kratos">
+                <div class="layer">
+
+                    <h3>Social Media</h3>
+                    <p>The app connect you to the talented people around the world.
+                        Download it from appStore.</p>
+                        <div>
+
+                            <a href="#" class = "btn">See more</a>
+                        </div>
+                    
+
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/wlPpa.jpg" alt="javaTowerDefenseGame">
+            </div>
+            <div class="work">
+                <img src="image/wlPpa.jpg" alt="green">
+            </div>
+            <div class="work">
+                <img src="image/JQ.png" alt="jobboard">
+
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!------------------contacts----------------->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                
+                <p><i class="fa-duotone fa-at"></i>gaius.bougna@epitech.eu</p>
+                <p><i class="fa-solid fa-phone"></i>0687224942</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/gaius-bougna-0441b719a/" aria-label="Home"><a class="fa-brands fa-linkedin" ></a></a>
+                    <a href="https://www.instagram.com" aria-label="Home"><a class="fa-brands fa-square-instagram" ></a></a>
+                    <a href="https://www.facebook.com"  aria-label="Home"><a class="fa-brands fa-facebook"></a></a>
+                    <a href="https://profile.indeed.com/?hl=fr_FR&co=FR&from=gnav-homepage" aria-label="Home"><a class="fa-sharp fa-solid fa-info" ></a></a> 
+                </div>
+
+
+                <button type="button" href="image/cv_R.pdf" download class="btn btn2">Download Cv</button>
+            </div>
+            <div class="contact-right">
+                <form name ="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your name" required>
+                    <input type="email" name="Email" placeholder="Your email" required>
+                    <textarea name="Message" irows="6" placeholder="Your message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                    
+                </form>
+                <span id="msg">Hello</span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright © Gaius. Made with<i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0"
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px"
+        }
+
+        
+
+    
+ </script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyX47to1gUQpyQ2zX61nUUHdBQjobrsmUVsYtOAUdCli5IFTq_FK0Ei60sfndAtQtzCGg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    
+    const msg = document.getElementById('msg')
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            }, 5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script> 
+</body>
+</html>
